@@ -1,0 +1,34 @@
+{
+  "name": "frontend-utilities",
+  "version": "1.0.0",
+  "description": "My custom front end utilties i've written as practice",
+  "type": "module",
+  "main": "./dist/frontend-utilities.umd.js",
+  "module": "./dist/frontend-utilities.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/frontend-utilities.es.js",
+      "require": "./dist/frontend-utilities.umd.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run",
+    "coverage": "vitest run --coverage"
+  },
+  "keywords": [
+    "utilities",
+    "frontend",
+    "javascript",
+    "helpers"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.1.11",
+    "vitest": "^3.2.4"
+  }
+}
