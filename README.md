@@ -9,12 +9,12 @@ This project uses Vite for building and Vitest for testing JavaScript utilities.
 ### Prerequisites
 
 - Node.js (v14 or higher recommended)
-- npm or yarn
+- pnpm (v8 or higher recommended)
 
 ### Installation
 
 ```bash
-npm install
+pnpm install
 ```
 
 ## Project Structure
@@ -34,20 +34,20 @@ frontend-utilities/
 
 ### Development
 ```bash
-npm run dev              # Start Vite dev server
+pnpm dev                # Start Vite dev server
 ```
 
 ### Building
 ```bash
-npm run build           # Build the library for production
+pnpm build              # Build the library for production
 ```
 
 ### Testing
 ```bash
-npm test                # Run tests in watch mode
-npm run test:run        # Run tests once
-npm run test:ui         # Run tests with UI
-npm run coverage        # Run tests with coverage report
+pnpm test               # Run tests in watch mode
+pnpm test:run           # Run tests once
+pnpm test:ui            # Run tests with UI
+pnpm coverage           # Run tests with coverage report
 ```
 
 ## Adding Your Utilities
